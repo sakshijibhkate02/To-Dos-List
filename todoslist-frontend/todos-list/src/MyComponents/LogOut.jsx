@@ -9,7 +9,7 @@ const LogoutButton = () => {
     navigate('/login');  // Redirect to login page
   };
 
-  return <button onClick={handleLogout}>Logout</button>;
+  return <button className="btn btn-sm btn-danger" onClick={handleLogout}>Logout</button>;
 };
 
 export default LogoutButton;
