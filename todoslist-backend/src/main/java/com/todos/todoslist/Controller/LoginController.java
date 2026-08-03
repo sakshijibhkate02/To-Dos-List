@@ -14,6 +14,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @RestController
 @RequestMapping("/api")
+@CrossOrigin(origins = "https://todos-list-sepia.vercel.app")
 public class LoginController {
 
     @Autowired
